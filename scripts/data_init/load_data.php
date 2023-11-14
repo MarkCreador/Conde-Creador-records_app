@@ -91,7 +91,5 @@ for ($i = 1; $i <= 500; $i++) {
     $stmt->bindParam(':documentcode', $documentcode);
     $stmt->execute();
 }
-?>
-
-
+echo "hello"
 ?>

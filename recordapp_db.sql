@@ -1,0 +1,1 @@
+SELECT * FROM recordapp_db.employee;

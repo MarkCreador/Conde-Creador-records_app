@@ -1,0 +1,44 @@
+.section {
+    border-radius: 5px;
+}
+
+.btn {
+    background-color: #007bff;
+    color: white;
+}
+
+.btn:hover {
+    background-color: #4992db;
+    color: white;
+}
+
+.page-header {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.page-header .information {
+    flex: 4;
+    display: flex;
+    flex-direction: column;
+}
+
+.page-header .buttons {
+    flex: 1;
+}
+
+table {
+    width: 100%;
+    height: 100%;
+}
+
+table > thead > tr > td {
+    color:gray;
+    font-size: 18px;
+}
+
+table > tbody > tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}

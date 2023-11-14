@@ -3,7 +3,7 @@ class Database {
     private $host = 'localhost';
     private $username = 'root';
     private $password = 'helloadmin';
-    private $database = 'school_db';
+    private $database = 'recordapp_db';
     private $conn;
 
     public function __construct() {
